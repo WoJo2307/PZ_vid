@@ -75,9 +75,25 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Glowna.aspx" />
+    <Content Include="podstrona_vid.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Glowna.aspx.cs">
+      <DependentUpon>Glowna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Glowna.aspx.designer.cs">
+      <DependentUpon>Glowna.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="podstrona_vid.aspx.cs">
+      <DependentUpon>podstrona_vid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="podstrona_vid.aspx.designer.cs">
+      <DependentUpon>podstrona_vid.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
